@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-19T17:25:58 IST" name="Default suite" finished-at="2026-06-19T17:26:00 IST" duration-ms="2342">
+  <suite started-at="2026-06-19T17:29:48 IST" name="Suite" finished-at="2026-06-19T17:29:51 IST" duration-ms="2734">
     <groups>
     </groups>
-    <test started-at="2026-06-19T17:25:58 IST" name="Default test" finished-at="2026-06-19T17:26:00 IST" duration-ms="2342">
+    <test started-at="2026-06-19T17:29:48 IST" name="Test" finished-at="2026-06-19T17:29:51 IST" duration-ms="2734">
+      <class name="APIherokuapp.QueryParam">
+        <test-method signature="querypara()[pri:2, instance:APIherokuapp.QueryParam@273e7444]" started-at="2026-06-19T17:29:50 IST" name="querypara" finished-at="2026-06-19T17:29:51 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- querypara -->
+      </class> <!-- APIherokuapp.QueryParam -->
       <class name="APIherokuapp.APIghorestjson">
-        <test-method signature="jsonformat()[pri:1, instance:APIherokuapp.APIghorestjson@52b1beb6]" started-at="2026-06-19T17:25:58 IST" name="jsonformat" finished-at="2026-06-19T17:26:00 IST" duration-ms="2264" status="PASS">
+        <test-method signature="jsonformat()[pri:1, instance:APIherokuapp.APIghorestjson@4b0d79fc]" started-at="2026-06-19T17:29:48 IST" name="jsonformat" finished-at="2026-06-19T17:29:50 IST" duration-ms="1864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- jsonformat -->
       </class> <!-- APIherokuapp.APIghorestjson -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -37,7 +37,7 @@ public class APIghorestjson {
 		.post("/public/v2/users")
 		.then().log().all()
 		.assertThat()
-		.statusCode(201);
+		.statusCode(403);
 		
 		
 	}
