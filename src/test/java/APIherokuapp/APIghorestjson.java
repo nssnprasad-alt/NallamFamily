@@ -19,7 +19,7 @@ public class APIghorestjson {
     @Test(priority = 1)
 	public void jsonformat() throws IOException {
     	
-        System.out.println("TEST EXECUTED");
+        System.out.println("TEST EXECUTE");
 
 		
 		RestAssured.baseURI="https://gorest.co.in";
