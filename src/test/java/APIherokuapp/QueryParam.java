@@ -38,7 +38,7 @@ public class QueryParam {
                     .get("/public/v2/users")
 
                 .then()
-                    .statusCode(200)
+                    .statusCode(201)
                     .extract().response();
 
 //        response.prettyPrint();
