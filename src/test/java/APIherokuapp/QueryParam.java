@@ -13,7 +13,7 @@ import io.restassured.response.Response;
 
 public class QueryParam {
 
-    @Test
+    @Test(priority = 2)
     public void querypara() {
 
         RestAssured.baseURI = "https://gorest.co.in";

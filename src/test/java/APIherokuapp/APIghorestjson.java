@@ -16,10 +16,10 @@ public class APIghorestjson {
 	
 	
 	
-	@Test
+    @Test(priority = 1)
 	public void jsonformat() throws IOException {
 		
-		RestAssured.baseURI="https://gorest.co.in";
+		RestAssured.baseURI = "https://reqres.in";
 		
 //		FileInputStream fis1	= new FileInputStream("src\\test\\resources\\TestData\\data.json");
 	String rawData =	new String (Files.readAllBytes(Paths.get("src\\\\test\\\\resources\\\\TestData\\\\data.json")));
@@ -34,7 +34,7 @@ public class APIghorestjson {
 		.post("/public/v2/users")
 		.then().log().all()
 		.assertThat()
-		.statusCode(201
+		.statusCode(201);
 		
 		
 	}
