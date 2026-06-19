@@ -15,6 +15,9 @@ public class QueryParam {
 
     @Test(priority = 2)
     public void querypara() {
+    	
+        System.out.println("TEST EXECUTED");
+
 
         RestAssured.baseURI = "https://gorest.co.in";
 

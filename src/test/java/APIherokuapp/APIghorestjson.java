@@ -18,8 +18,11 @@ public class APIghorestjson {
 	
     @Test(priority = 1)
 	public void jsonformat() throws IOException {
+    	
+        System.out.println("TEST EXECUTED");
+
 		
-		RestAssured.baseURI = "https://reqres.in";
+		RestAssured.baseURI="https://gorest.co.in";
 		
 //		FileInputStream fis1	= new FileInputStream("src\\test\\resources\\TestData\\data.json");
 	String rawData =	new String (Files.readAllBytes(Paths.get("src\\\\test\\\\resources\\\\TestData\\\\data.json")));
